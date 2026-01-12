@@ -1,0 +1,1 @@
+#erro em adicionar um valor valido (mensagem de seguranca) ao adicionar valor gasto

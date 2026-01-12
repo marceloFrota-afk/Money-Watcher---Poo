@@ -1,0 +1,45 @@
+#metas - sistema de criacao de metas
+#porcentagens - mostrar valores finais em porcentagens
+#separação em dias
+#categorias de despesa, tipo de despesa (fixa, essencial..){
+    essencial e nao essencial - all
+    alimentacao, transporte, saude, lazer, contas, casa - especificos
+}
+#"caixinha" com o dinheiro que sobrar passando para o proximo ciclo 
+
+
+Menus do programa: Tela inicial->
+1a Iniciar o ciclo
+2a Instrucoes
+3a Sair
+
+Apos o inicio: (so se repete apos o fim do ciclo)
+1a Qual o tamanho do ciclo (dias)? 
+2a Qual o valor adicionado a cada ciclo? (salario)
+
+Menu de operacao (vai ser repetido):
+"Dia X"
+1a Adicionar gasto
+-> Tipo de gasto
+    Essencial ou Nao Essencial
+    Tipo de Gasto
+-> Valor 
+*retorna ao menu de operacao
+2a ver total gasto || saldo(atualizado diariamente)
+3a encerrar dia 
+
+Tela de relatorio dos gastos: (exibir tudo de uma vez, sem repetir menu)
+1a Gasto total essencial e nao essencial (% e int)
+2a Gastos individuais (gastos por categoria, %)
+3a Saldo (o que sobrou ou faltou para o proximo ciclo)
+4a Valor contido na "caixinha"
+5a Encerrar ciclo..
+
+
+Quando acabar o ciclo:
+1a Alterar algum dado (retorna ao menu de inicio)                          
+2a iniciar novo ciclo (retorna ao menu de operacoes || dia++)
+3a Sair do programa
+
+
+
